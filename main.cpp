@@ -126,20 +126,20 @@ keyboard.countKeyStroke();
 //  9)
 //  Noun:        router
 //  action 1:    the router renews its connection
-router.renew();
+router.renewConnection();
 //  action 2:    the router reconnects
 router.reconnect();
 //  action 3:    the router blocks incoming data
 router.blockIncomingData();
 
 //  10)
-//  Noun:        window
-//  action 1:    the window displays something
-window.display();
-//  action 2:    the window shuts down
-window.shutdown();
-//  action 3:    the window change its size 
-window.fitSize();
+//  Noun:        hard disk
+//  action 1:    the hard-disk formats its data
+hardDisk.format();
+//  action 2:    the hard-disk saves data
+hardDisk.copy();
+//  action 3:    the hard-disk overwrites and save data 
+hardDisk.overWriteAndSave();
 
 
 #endif
